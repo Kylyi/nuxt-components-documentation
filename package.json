@@ -6,11 +6,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "@histoire/plugin-nuxt": "^0.17.0",
+    "@histoire/plugin-vue": "^0.17.1",
+    "histoire": "^0.17.0"
   }
 }
