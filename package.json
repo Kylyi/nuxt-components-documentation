@@ -12,11 +12,18 @@
     "story:preview": "histoire preview"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5",
+    "@antfu/eslint-config": "^0.41.0",
     "@histoire/plugin-nuxt": "^0.17.0",
     "@histoire/plugin-vue": "^0.17.1",
-    "histoire": "^0.17.0"
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@types/node": "^18.17.3",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4",
+    "histoire": "^0.17.0",
+    "nuxt": "^3.6.5",
+    "prettier": "3.0.2"
   }
 }
